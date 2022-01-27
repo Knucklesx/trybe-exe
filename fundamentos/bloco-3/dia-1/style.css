@@ -83,7 +83,8 @@ h1 {
 .conhecimento{
     padding-left: 10px;
     font-size: 20px;
-    color:aquamarine
+    color:rgb(61, 23, 11);
+    
 }
 
 footer {
@@ -92,53 +93,6 @@ footer {
     padding-left: 1px;
     padding-top: 50px;
 }
-
-/* #line1 {
-    color: #a8350400;
-    font-weight: bold;
-}
-
-#line2 {
-    color: #a8350427
-}
-
-#line3 {
-    color: #a8350434
-}
-
-#line4 {
-    color: #a8350460
-}
-
-#line5 {
-    color: #a8350477
-}
-
-
-#line6 {
-    color: #a8350496
-}
-
-#line7 {
-    color: #a83504d2
-} */
-
-.gradient {
-    background-image: linear-gradient(to left,rgba(253, 166, 108, 0.404), #3d3737, #ee946d, #9e4825, rgba(190, 156, 132, 0.808));
-    color: black;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#line {
-    font-size:1rem;
-    font-weight: bold;
-    line-height: 1.1;
-    margin-left: 150px;
-
-}
-
 
 #baixo {
     text-decoration-color: #D36135 ;
