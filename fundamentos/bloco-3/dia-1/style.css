@@ -82,13 +82,13 @@ h1 {
 }
 
 footer {
-    color: #D36135;
+    /* color: #D36135; */
     text-decoration-color: none;
     padding-left: 1px;
     padding-top: 50px;
 }
 
-#line1 {
+/* #line1 {
     color: #a8350400;
     font-weight: bold;
 }
@@ -116,7 +116,23 @@ footer {
 
 #line7 {
     color: #a83504d2
+} */
+
+.gradient {
+    background-image: linear-gradient(to left,rgba(253, 166, 108, 0.404), #3d3737, #ee946d, #9e4825, rgba(190, 156, 132, 0.808));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+#line {
+    font-size:1rem;
+    font-weight: bold;
+    line-height: 1.1;
+
+}
+
 
 #baixo {
     text-decoration-color: #D36135 ;
