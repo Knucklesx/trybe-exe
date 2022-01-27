@@ -1,0 +1,143 @@
+body {
+    background-color: #D36135 
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    color: #4b1818;
+}
+
+#f1 {
+    /*margin-inline: 40%;*/
+    padding: 5px;
+    margin-left: 750px;
+    width: 20%;
+    border-radius: 50%;
+}
+
+#lista {
+    color: #D36135;
+    text-decoration-color: none;
+    padding-left: 1px;
+}
+
+.tlist {
+    text-decoration-color: #D36135 ;
+    color: #4b1818;
+    font-size: 20px;
+    padding-left: 1;
+}
+
+#descricao {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#t1 {
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-left: 12px;
+}
+
+#hab {
+    text-align: justify;
+    font-size: 50px;
+    padding-top: 250px;
+    padding-left: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:hsla(0, 77%, 15%, 0.39)
+
+}
+
+#l2 {
+    color: #D36135;
+    text-decoration-color: none;
+    padding-left: 1px;
+}
+
+.tl2 {
+    text-decoration-color: #D36135 ;
+    color: #000000;
+    font-size: 20px;
+    padding-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#conh {
+    text-decoration-color: none;
+    padding-left: 100px;
+
+}
+.conhecimento{
+    padding-left: 10px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+footer {
+    color: #D36135;
+    text-decoration-color: none;
+    padding-left: 1px;
+    padding-top: 50px;
+}
+
+#line1 {
+    color: #a8350400;
+    font-weight: bold;
+}
+
+#line2 {
+    color: #a8350427
+}
+
+#line3 {
+    color: #a8350434
+}
+
+#line4 {
+    color: #a8350460
+}
+
+#line5 {
+    color: #a8350477
+}
+
+
+#line6 {
+    color: #a8350496
+}
+
+#line7 {
+    color: #a83504d2
+}
+
+#baixo {
+    text-decoration-color: #D36135 ;
+    color: #4b1818;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+#kaka {
+    text-decoration-color: #D36135 ;
+    color: #4b1818;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+#back {
+    text-decoration-color: #D36135 ;
+    color: #4b1818;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 500px
+}
