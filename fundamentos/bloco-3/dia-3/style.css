@@ -1,28 +1,153 @@
-.caixa {
-    color: white;
-    display: inline-block;
-    line-height: 50px;
+body {
+    background-color: #D36135 
+}
+
+#menu-warper {
+    width: 30%;
+    margin: auto;
     text-align: center;
-    vertical-align: top;
-  }
-  
-  .width-and-height {
-    height: 50px;
-    width: 50px;
-  }
-  
-  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
-  .padding {
-      padding: 20px;
-  
-  }
-  
-  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
-  .margin {
-    margin: 30px;
-  }
-  
-  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
-  .border {
-    border: 5px solid black;
-  }
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#mf {
+    text-decoration: hotpink;
+    color: black;
+    font-size: 20px;
+}
+
+#hab1 {
+    text-decoration: hotpink;
+    color: black;
+    font-size: 20px;
+}
+
+#desc1 {
+    text-decoration: hotpink;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    color: #4b1818;
+    border-bottom: 100px solid transparent;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(114, 58, 37);
+    text-shadow: 5px 5px 9px rgb(177, 109, 82);
+    padding-bottom: 0cm;
+}
+
+
+
+#f1 {
+    width: 350px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 250px;
+    margin-right: 100px;
+    padding: 25px;
+    box-shadow: 0 10px 200px rgba(146, 91, 69, 0.5);
+}
+
+
+#t1 {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 200px;
+
+}
+
+#seta {
+    text-decoration: hotpink;
+    color: black;
+    font-size: 20px;
+    margin: 30px solid black;
+    position:absolute;
+    margin-top: 400px;
+}
+
+#seta:hover {
+    color: red;
+    border-radius: 40%;
+
+}
+
+
+#hab {
+    padding-top: 600px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+#l2 {
+    color: #D36135;
+    text-decoration-color: none;
+    padding-left: 1px;
+    text-align: justify;
+}
+
+.tl2 {
+    text-decoration-color: #D36135 ;
+    color: #000000;
+    font-size: 20px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.ímpar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#conh {
+    color: #D36135;
+    text-decoration-color: none;
+    padding-left: 1px;
+    text-align: justify;
+}
+
+.conhecimento{
+    text-decoration-color: #D36135 ;
+    color: #000000;
+    font-size: 20px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+
+#foot-warper {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#baixo{
+    text-decoration: hotpink;
+    color: black;
+    font-size: 20px;
+}
+
+#kaka {
+    text-decoration: hotpink;
+    color: black;
+    font-size: 20px;
+    
+}
+
+#back {
+    text-decoration: hotpink;
+    color: black;
+    font-size: 20px;   
+}
