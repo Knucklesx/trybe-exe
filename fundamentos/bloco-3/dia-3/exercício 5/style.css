@@ -1,0 +1,59 @@
+ol {
+    background-color: yellow;
+}
+
+ol li:nth-of-type(even) {
+    text-transform: uppercase;
+}
+ol li:nth-last-of-type(odd) {
+    color: green;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+h1:nth-of-type(em), h2:nth-of-type(em), h3:nth-of-type(em) {
+    font-size: 40px;
+    border:1px solid black
+}
+
+li {
+    font-size: 20px;
+}
+
+li:nth-of-type(em) {
+    font-weight: bold;
+}
+
+li.l1, li.l2, li.l3 { 
+    color: blue;
+}
+
+li.java {
+    background-color: pink;
+}
+
+.ally:hover {
+    font-weight: bold;
+}
+
+.trybe:hover{
+    color: green
+}
+
+.DD:hover {
+    color: yellow;
+}
+
+.MDN:hover {
+    color: black;
+}
+
+.w3:hover {
+    color: green;
+}
+
+.stack:hover {
+    color: orange
+}
