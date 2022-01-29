@@ -5,8 +5,12 @@ body {
 a {
     color: rgb(136, 44, 16);
     text-decoration: none;
-    font-size: 30px;
+
 } /*rgb(14, 45, 102);*/
+
+#menutop {
+    font-size: 30px;
+}
 
 .container-menu  {
     display: flex;
@@ -73,7 +77,10 @@ h1 {
     border-radius: 50%;
     float: left;
     margin-left: 25px;
-    margin-top:50px
+    margin-top:50px;
+    padding: 25px;
+    box-shadow: 0 10px 200px rgba(146, 91, 69, 0.5);
+
 }
 
 .description {
@@ -91,6 +98,21 @@ h1 {
     color: black;
     padding-left: 25px;
 }
+
+.cont-seta {
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    width: 152px;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back {
+    text-align: center;
+    font-size: 20px;
+}
+
 
 .flex-cont {
     margin-left:250px;
@@ -116,4 +138,18 @@ h1 {
 .thab {
     font-size: 28px;
     margin-left: 15px;
+}
+
+.cont-foot {
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 25px;
+    display: flex;
+    align-content: stretch;
+
+}
+
+.fg2 {
+    flex-grow: 1;
+    font-size: 20px;
 }
