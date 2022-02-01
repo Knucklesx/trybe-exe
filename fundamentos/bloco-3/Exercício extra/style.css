@@ -1,0 +1,150 @@
+body {
+    background: #FEE9FC;
+}
+
+header {
+    background: #ffc5e5;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+#header {
+    left: 0;
+    top:0;
+    color: #1f1c0d;
+
+}
+
+#nav {
+    display:flex;
+    margin: 0 20px 0 20px;
+}
+
+.nav-item {
+    margin: 0 5px 0 5px;
+    text-align: center;
+    flex: 1;
+    color: rgb(182, 104, 192)
+}
+
+.head-nav {
+    float: right;
+    margin: 50px 50px 0 50px;
+
+}
+
+.right {
+    margin: 50px;
+}
+
+#section1 {
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    
+}
+
+#titlesec1 {
+    margin-left: 30px;
+    font-size: 32px;
+}
+
+#appsec1 {
+    font-size: 20px;    
+}
+
+#section2 {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    width: 1200px;
+}
+
+#titlesec2 {
+    font-size: 30px;
+    margin-left: 32px
+}
+
+#cakeimg, #bimg, #cupimg, #pieimg  {
+    float:left;
+    margin-bottom: 100px;
+    border-radius: 20%;
+    width: 500px;
+}
+
+#h3cake, #h3cup, #h3pie, #h3brig {
+
+    height: 450px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+#h3cup, #h3pie {
+    justify-content: flex-end;
+    padding-right: 15px ;
+} 
+
+#h3cake, #h3brig {
+    padding-left: 15px
+}
+
+
+.h3a, .h3b {
+    flex: 1
+}
+
+#cupimg, #pieimg {
+    float:right;
+    margin-bottom: 100px; 
+}
+
+#face, #whats, #insta {
+    width: 64px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    background: #ffc5e5;
+}
+
+#fp {
+    margin: 10px 0 0 50%
+}
+
+#contact {
+
+}
+
+#arti-contact {
+
+    margin: 0 0 0 20%;
+    max-width: 50%;
+}
+
+#h2contact {
+
+    margin-left: 20%
+}
+
+
+.socialmedia-icon {
+
+    margin: 0 0 0 20%;
+}
