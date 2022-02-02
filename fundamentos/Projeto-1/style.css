@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    background-color: #85A3A8;
+    display: inline-block;
+
+}
+
+#titulo {
+    left: 50px;
+    color: #91718B
+}
+
+ a {
+     text-decoration: none;
+ }
+
+#menu {
+    display: flex;
+    margin: 0 20px 0 20px;
+
+    
+}
+
+.m2 {
+    float: right;
+    margin: 50px 50px 0 50px
+}
+
+#menu-item {
+    margin: 0 5px 0 5px;
+    text-align: center;
+    flex: 1;
+    font-size: 20px;
+ }
+
+#minha_foto {
+    width: 300px;
+    margin-top: 100px;
+    justify-content: center;
+    
+    
+}
+
+#foto-e-info {
+    display: block;
+    padding: 25px 100px 50px 100px;
+}
+
+table {
+    display: flex;
+    align-content: flex-start;
+    font-size: 20px;
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 100px;
+
+    
+    
+}
+
+tbody {
+    width: 300px;
+
+
+}
+
+
+
+ol {
+    padding: 25px 100px 50px 100px;
+    
+}
+
+ul {
+    padding: 25px 100px 50px 100px;
+
+}
+
+#article1 {
+
+}
+
+#articles {
+    display:block;
+    height: 250px;
+
+
+}
+
+
+.lado-direito {
+    display: inline-block;
+    width: 400px;
+    float: right;
+
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    width: 500px;
+    float:left
+}
