@@ -57,6 +57,7 @@
   </head>
   <body>
     <script>
+
 //primeira parte
     let newH1 = document.createElement('h1');
     newH1.innerText = 'Exercício 5.2 - JavaScript DOM';
@@ -98,12 +99,15 @@ leftSection.appendChild(img)
 let lista = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete',
 'Oito', 'Nove', 'Dez'];
 
-
+let elementUl = document.createElement('ul');
+rightSection.appendChild(elementUl)
 for (let index = 0; index < lista.length; index += 1) {
     let number = lista[index];
     let newUList = document.createElement('li');
-    newUList.innerText = number;
-   rightSection.appendChild(newUList)
+    newUList.innerText = number;    
+    newUList.className = 'lista'
+    elementUl.appendChild(newUList)
+
 }
 
 
@@ -131,11 +135,25 @@ let h3Desc3 = document.createElement('descriptio');
 h33.appendChild(h3Desc3)
 
 
+//12ª parte:
+
+newMain.removeChild(leftSection);
+
+
+//13ª parte:
+rightSection.style.marginRight = 'auto';
+
+//14ª parte:
+
+centerSection.style.backgroundColor = 'green';
+
+//15ª parte:
+elementUl.lastChild.remove();
+elementUl.lastChild.remove()
 
 
 
 
-
-    </script>
+   </script>
   </body>
 </html>
