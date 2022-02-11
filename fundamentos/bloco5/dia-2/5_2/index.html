@@ -94,6 +94,18 @@ img.src = 'https://picsum.photos/200';
 img.className = 'small-image';
 leftSection.appendChild(img)
 
+//oitava parte:
+let lista = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete',
+'Oito', 'Nove', 'Dez'];
+
+
+for (let index = 0; index < lista.length; index += 1) {
+    let number = lista[index];
+    let newUList = document.createElement('li');
+    newUList.innerText = number;
+   rightSection.appendChild(newUList)
+}
+
 
 
 
