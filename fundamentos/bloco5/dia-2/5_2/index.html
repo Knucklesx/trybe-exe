@@ -68,13 +68,13 @@
     document.body.appendChild(newMain);
 
 //terceira parte
-let newSection = document.createElement('section');
-    newSection.className = 'center-content';
-    newMain.appendChild(newSection)
+let centerSection = document.createElement('section');
+    centerSection.className = 'center-content';
+    newMain.appendChild(centerSection)
 
 //quarta parte:
 let newParagraph = document.createElement('p');
-newSection.appendChild(newParagraph);
+centerSection.appendChild(newParagraph);
 newParagraph.innerText = 'Oi, eu sou o Goku!'
 
 //quinta parte
@@ -85,7 +85,15 @@ newMain.appendChild(leftSection);
 //sexta parte
 let rightSection = document.createElement('section');
 rightSection.className = 'right-content';
-newMain.appendChild(rightSection)
+newMain.appendChild(rightSection);
+
+
+//sétima parte:
+let img = document.createElement('img');
+img.src = 'https://picsum.photos/200';
+img.className = 'small-image';
+leftSection.appendChild(img)
+
 
 
 
