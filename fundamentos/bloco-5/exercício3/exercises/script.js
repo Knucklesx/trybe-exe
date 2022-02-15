@@ -41,43 +41,94 @@ function dezDays() {
 
 dezDays()
   
-function holBttn(buttonName) {
-  let newBtn = document.createElement('button');
-  let btnCont = document.querySelector('.buttons-container');
-  newBtn.innerHTML = buttonName
-  let newBtnId = 'btn-holiday';
-  newBtn.Id = newBtnId
+function createHolidayButton(buttonName) {
+  let buttonContainer = document.querySelector('.buttons-container');
+  let newButton = document.createElement('button');
+  let newButtonID = 'btn-holiday';
+
+  newButton.innerHTML = buttonName;
+  newButton.id = newButtonID;
+  buttonContainer.appendChild(newButton);
+};
+
+createHolidayButton('Feriados');
+
+
+
+
+
+
+// function holBttn(buttonName) {
+//   let btnCont = document.querySelector('.buttons-container');
+//   let newButton = document.createElement('button');
+//   let newButnId = '#btn-holiday';
+//   newBtn.innerHTML = buttonName;
+//   newBtn.Id = newBtnId;
   
-  btnCont.appendChild(newBtn)
+//   btnCont.appendChild(newBtn)
 
-
-
-
-
-}
-  
-holBttn('Feriados')
-
-// function displayHBtn() {
-//   let holDay = document.querySelector('#btn-holiday');
-//   let clickHoliday = document.querySelector('.holiday')
-//   let bkColor = 'rgb(238,238,238)';
-//   let oldColor = 'white';
-
-//   holDay.addEventListener('click', function() {
-//     for (let index = 0; index < clickHoliday.length; index += 1) {
-//       if (clickHoliday[index].style.backgroundColor === oldColor) {
-//         clickHoliday[index].style.backgroundColor = bkColor
-//       } else {
-//         clickHoliday[index].style.backgroundColor = oldColor
-//       }
-//     }
-//   })
-
-
+ 
 // }
+  
+// holBttn('Feriados')
 
-// dispĺayHBtn()
 
+function displayHolidays() {
+  let getHolidayButton = document.querySelector('#btn-holiday');
+  let getHolidays = document.querySelectorAll('.holiday')
+  let backgroundColor = 'rgb(238,238,238)';
+  let setNewColor = 'white';
+
+  getHolidayButton.addEventListener('click', function() {
+    for (let index = 0; index < getHolidays.length; index += 1) {
+      if (getHolidays[index].style.backgroundColor === setNewColor) {
+        getHolidays[index].style.backgroundColor = backgroundColor;
+      } else {
+        getHolidays[index].style.backgroundColor = setNewColor;
+      }
+    }
+  })
+};
+
+displayHolidays();
+
+
+
+function createFridayButton(string) {
+  let buttonContainer = document.querySelector('.buttons-container');
+  let newFridayButton = document.createElement('button');
+  let newFridayButtonID = 'btn-friday';
+
+  newFridayButton.innerHTML = string;
+  newFridayButton.id = newFridayButtonID;
+  buttonContainer.appendChild(newFridayButton);
+}
+
+createFridayButton('Friday')
+
+
+function displayFridays() {
+  let getFridayButton = document.querySelector('#btn-friday');
+  let getFridays = document.querySelectorAll('.friday')
+  let backgroundColor = 'rgb(238,238,238)';
+  let setNewColor = 'gold';
+
+  getFridayButton.addEventListener('click', function() {
+    for (let index = 0; index < getFridays.length; index += 1) {
+      if (getFridays[index].style.backgroundColor === setNewColor) {
+        getFridays[index].style.backgroundColor = backgroundColor;
+      } else {
+        getFridays[index].style.backgroundColor = setNewColor;
+      }
+    }
+  })
+};
+
+displayFridays();
+
+
+function calendarZoomIn() {
+  
+}
 
 
