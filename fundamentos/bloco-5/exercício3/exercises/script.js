@@ -147,3 +147,25 @@ function calendarZoomOut() {
   })
 }
 calendarZoomOut()
+
+
+
+function toDoList(task) {
+  let newTaskList = document.querySelector('.my-tasks');
+  let taskList = document.createElement('span');
+
+  taskList.innerHTML = task;
+  newTaskList.appendChild(taskList)
+
+}
+toDoList('Grêmio')
+
+function legendaColor(color) {
+  let newTaskList = document.querySelector('.my-tasks');
+  let newTaskDiv = document.createElement('div')
+  newTaskDiv.className = 'task';
+  newTaskDiv.style.backgroundColor = color;
+  newTaskList.appendChild(newTaskDiv)
+}
+
+legendaColor('green')
