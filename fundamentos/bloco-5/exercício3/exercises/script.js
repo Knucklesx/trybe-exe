@@ -53,6 +53,31 @@ function holBttn(buttonName) {
 
 
 
+
 }
   
 holBttn('Feriados')
+
+// function displayHBtn() {
+//   let holDay = document.querySelector('#btn-holiday');
+//   let clickHoliday = document.querySelector('.holiday')
+//   let bkColor = 'rgb(238,238,238)';
+//   let oldColor = 'white';
+
+//   holDay.addEventListener('click', function() {
+//     for (let index = 0; index < clickHoliday.length; index += 1) {
+//       if (clickHoliday[index].style.backgroundColor === oldColor) {
+//         clickHoliday[index].style.backgroundColor = bkColor
+//       } else {
+//         clickHoliday[index].style.backgroundColor = oldColor
+//       }
+//     }
+//   })
+
+
+// }
+
+// dispĺayHBtn()
+
+
+
