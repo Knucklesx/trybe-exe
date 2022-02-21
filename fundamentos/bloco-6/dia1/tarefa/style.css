@@ -1,0 +1,19 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#form-all {
+    border: 2px solid black
+}
+
+#name-person, #email-person {
+    font-size: 20px;
+}
+
+#label-name, #email-label {
+    font-size: 20px;
+
+}
+
+
