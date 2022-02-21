@@ -168,4 +168,40 @@ function legendaColor(color) {
   newTaskList.appendChild(newTaskDiv)
 }
 
-legendaColor('green')
+legendaColor('gold')
+
+function clickEventDiv() {
+  let clickEvent = document.querySelector('.task');
+  let selectedEvent = document.getElementsByClassName('task selected');
+  clickEvent.addEventListener('click', function(event) {
+    if (selectedEvent.length === 0) {
+      event.target.className= 'task selected';
+
+    } else {
+      event.target.className = 'task'
+    }
+
+  })
+
+}
+clickEventDiv() 
+
+function clickDayEvent() {
+  let taskSelected = document.getElementsByClassName('task selected');
+  let days = document.querySelector('#days');
+  let taskDiv = document.querySelector('.task');
+  let taskColor = taskDiv.style.backgroundColor;
+
+  days.addEventListener('click', function(event) {
+    let eventTargetColor = event.target.style.color;
+    if (taskSelected.length > 0 && eventTargetColor !== taskColor) {
+      let color = taskSelected[0].style.backgroundColor;
+      event.target.style.color = color;
+
+    } else if (eventTargetColor === taskColor && taskSelected.length !== 0) {
+      event.target.style.color = 'rgb(119, 119, 119)'
+    }
+  })
+}
+
+clickDayEvent()
