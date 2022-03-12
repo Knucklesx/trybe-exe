@@ -71,6 +71,7 @@ const books = [
 //     'A Coisa - Terror - Stephen King',
 //     'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
 //   ];
+// 
   
   function formatedBookNames(array) {
     // escreva seu código aqui
