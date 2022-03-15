@@ -67,7 +67,7 @@ const books = [
 
 function reduceNames(array) {
 //   return array.reduce((acc, item) => acc.concat(item.author.name), '')
-    return array.reduce((acc, item) => acc.concat(`${item.autor.name},`))
+    return array.reduce((acc, item) => acc.concat(`${item.author.name}, `), '')
 }
 
 
@@ -75,23 +75,23 @@ console.log(reduceNames(books))
 
 
 
-function reduceGaba() {
-    const names = books.reduce((acc, book, index, array) => {
-        if (index === array.length - 1) return `${acc} ${book.author.name}.`;
-        return `${acc} ${book.author.name},`;
-    }, '')
-    return names.trim();
-}
+// function reduceGaba() {
+//     const names = books.reduce((acc, book, index, array) => {
+//         if (index === array.length - 1) return `${acc} ${book.author.name}.`;
+//         return `${acc} ${book.author.name},`;
+//     }, '')
+//     return names.trim();
+// }
 
-console.log(reduceGaba())
+// console.log(reduceGaba())
 
 
-function reduceNames() {
-    const names = books.reduce((acc, book, index, array) => {
-      if (index === array.length - 1) return `${acc} ${book.author.name}.`;
-      return `${acc} ${book.author.name},`;
-    }, '');
-    return names.trim();
-  }
+// function reduceNames() {
+//     const names = books.reduce((acc, book, index, array) => {
+//       if (index === array.length - 1) return `${acc} ${book.author.name}.`;
+//       return `${acc} ${book.author.name},`;
+//     }, '');
+//     return names.trim();
+//   }
 
-  console.log(reduceNames())
+//   console.log(reduceNames())
