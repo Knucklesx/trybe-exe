@@ -59,14 +59,15 @@ const books = [
       },
       releaseYear: 1928,
     },
-  ];
+];
   
   // Adicione o código do exercício aqui:
 
 //const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
 
 function reduceNames(array) {
-  return array.reduce((acc, item) => acc.concat(item.author.name), '')
+//   return array.reduce((acc, item) => acc.concat(item.author.name), '')
+    return array.reduce((acc, item) => acc.concat(`${item.autor.name},`))
 }
 
 
