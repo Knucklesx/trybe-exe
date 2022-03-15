@@ -73,21 +73,25 @@ const estudantes = [
     },
 ];
 
+const maiorNota = estudantes.reduce((acc, item) => {
+  acc[item.nome] = item.materias;
+  return acc;
+}, {})
+
+console.log(maiorNota)
 
 
+// const maiorNota = (acc, materia) => {
+//     if (acc.nota > materia.nota) return acc;
+//     return materia
+// }
+
+// const melhorDeCadaUm = (students) => students.map((student) => ({
+//         name: student.nome,
+//         materia: student.materias.reduce(maiorNota).name}))
 
 
-const maiorNota = (acc, materia) => {
-    if (acc.nota > materia.nota) return acc;
-    return materia
-}
-
-const melhorDeCadaUm = (students) => students.map((student) => ({
-        name: student.nome,
-        materia: student.materias.reduce(maiorNota).name}))
-
-
-console.log(melhorDeCadaUm(estudantes))
+// console.log(melhorDeCadaUm(estudantes))
 
 
 
