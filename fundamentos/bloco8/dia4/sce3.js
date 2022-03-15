@@ -70,4 +70,5 @@ function averageAge(array) {
   return idadeEscritores/totalItens
 }
 
+
 console.log(averageAge(books));
