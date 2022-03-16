@@ -21,3 +21,5 @@ const product = {
 const { price, seller } = product
 
 console.log(price, seller)
+
+

@@ -12,7 +12,7 @@ const otherPerson = {
 };
 
 
-const { nationality = 'brasileiro' } = person
+
 
 
 
