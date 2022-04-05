@@ -29,17 +29,17 @@ class Content extends React.Component {
   
   render() {
     return (
-      conteudos.map((elemento) => {
-        return (
-        <div key='lista'>
-          <p>O conteúdo é: {elemento.conteudo}</p>
-          <p>Status: {elemento.status}</p>
-          <p>Bloco: {elemento.bloco}</p>
-        </div>
+      <div className="content">
+        {conteudos.map((elemento) => 
+          <div key={elemento.conteudo} className='card'>
+            <p>{`O conteúdo é: ${elemento.conteudo}`}</p>
+            <p>Status: {elemento.status}</p>
+            <p>Bloco: {elemento.bloco}</p>
+          </div>
         )}
+      </div>
       )
-    )
-  }
+    }
 }
 
 export default Content;
