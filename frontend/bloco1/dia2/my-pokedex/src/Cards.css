@@ -1,0 +1,16 @@
+.card {
+  width: 20rem;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 1rem;
+  box-shadow: 0 0 5px 3px red;
+}
+
+.cards.h2 { 
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 25px;
+}
